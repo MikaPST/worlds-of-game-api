@@ -1,9 +1,0 @@
- if (!$user->getEmail() || !filter_var($user->getEmail(), FILTER_VALIDATE_EMAIL)
-                || !$user->getPassword()
-                || !$user->getSurname() || !ctype_alnum($user->getSurname())
-                || !$user->getFirstName() || !ctype_alpha($user->getFirstName())
-                || !$user->getLastName() || !ctype_alpha($user->getLastName())
-                || !$user->getPhone() || !ctype_digit($user->getPhone())
-                || !$user->getAdress() || !ctype_alnum($user->getAdress())
-                || !$user->getCity() || !ctype_alpha($user->getCity())
-                || !$user->getZip()) {
