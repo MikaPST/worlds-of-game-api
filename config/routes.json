@@ -1,0 +1,20 @@
+{
+  "UserController::retrieve": {
+    "path": "/users",
+    "method": "get",
+    "controller": "Wog\\Controller\\Api\\UserController",
+    "action": "retrieve"
+  },
+  "UserController::create": {
+    "path": "/users",
+    "method": "post",
+    "controller": "Wog\\Controller\\Api\\UserController",
+    "action": "create"
+  },
+  "LoginController::retrieve": {
+    "path": "/login",
+    "method": "get",
+    "controller": "Wog\\Controller\\Api\\LoginController",
+    "action": "retrieve"
+  }
+}

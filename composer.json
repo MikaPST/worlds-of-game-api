@@ -1,0 +1,15 @@
+{
+    "name": "administrateur/worlds-of-game-api",
+    "authors": [
+        {
+            "name": "Aurélie",
+            "email": "aurelie.bonnot@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wog\\": "src/"
+        }
+    },
+    "require": {}
+}
